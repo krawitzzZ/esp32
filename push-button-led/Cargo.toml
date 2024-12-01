@@ -1,5 +1,5 @@
 [package]
-name = "temperature"
+name = "push-button-led"
 version = "1.0.0"
 authors.workspace = true
 edition = "2021"
@@ -7,7 +7,7 @@ resolver = "2"
 rust-version = "1.77"
 
 [[bin]]
-name = "temperature"
+name = "push-button-led"
 harness = false
 
 [features]
@@ -18,9 +18,8 @@ experimental = ["esp-idf-svc/experimental"]
 anyhow = { workspace = true }
 embedded-hal = { workspace = true }
 esp-idf-svc = { workspace = true }
-dht-sensor = { version = "0.2.1" }
 log = { workspace = true }
 
 [build-dependencies]
 embuild = { version = "0.32.0" }
-cc = { version = "1.2.2" }       # Necessary until a new version of `esp-idf-sys` is released
+cc = { version = "1.2.2" }
