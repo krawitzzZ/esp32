@@ -1,0 +1,25 @@
+[package]
+name = "potentiometer-led"
+version = "1.0.0"
+authors.workspace = true
+edition = "2021"
+resolver = "2"
+rust-version = "1.77"
+
+[[bin]]
+name = "potentiometer-led"
+harness = false
+
+[features]
+default = []
+experimental = ["esp-idf-svc/experimental"]
+
+[dependencies]
+anyhow = { workspace = true }
+embedded-hal = { workspace = true }
+esp-idf-svc = { workspace = true }
+log = { workspace = true }
+
+[build-dependencies]
+embuild = { version = "0.32.0" }
+cc = { version = "1.2.2" }

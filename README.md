@@ -26,3 +26,13 @@ and if the button is pressed put voltage to the LED
 #### Result push-button-led
 
 ![Result](./push-button-led/media/result.gif)
+
+### potentiometer-led
+
+Uses 10k potentiometer and 1 LED. Reads the value from potentiometer via ADC
+on GPIO4 from the potentiometer and produce a PWM signal on GPIO5 that brightens
+or dims the LED.
+
+#### Result potentiometer-led
+
+![Result](./potentiometer-led/media/result.gif)
