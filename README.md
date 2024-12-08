@@ -36,3 +36,13 @@ or dims the LED.
 #### Result potentiometer-led
 
 ![Result](./potentiometer-led/media/result.gif)
+
+### motion-sensor
+
+Uses [HC-SR501 PIR Sensor](https://lastminuteengineers.com/pir-sensor-arduino-tutorial/),
+LED and an active buzzer. Reads the value from the sensor
+and if the motion is detected lights up the LED and powers the buzzer
+
+#### Result motion-sensor
+
+![Result](./motion-sensor/media/result.gif)

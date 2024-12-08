@@ -1,7 +1,12 @@
 # More keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [workspace]
-members = ["temperature", "push-button-led", "potentiometer-led"]
+members = [
+    "temperature",
+    "push-button-led",
+    "potentiometer-led",
+    "motion-sensor",
+]
 resolver = "2"
 
 [workspace.package]
