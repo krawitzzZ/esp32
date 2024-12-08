@@ -17,9 +17,6 @@ fn main() -> Result<(), anyhow::Error> {
     let ps = Peripherals::take()?;
     let delay = delay::Delay::default();
 
-    // let mut pin5 = gpio::PinDriver::input_output(ps.pins.gpio5)?;
-    // pin5.set_pull(gpio::Pull::Down)?;
-
     // reading
     let adc2_driver = adc::oneshot::AdcDriver::new(ps.adc2)?;
     let adc_channel_config = adc::oneshot::config::AdcChannelConfig {
