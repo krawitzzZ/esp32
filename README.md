@@ -45,4 +45,4 @@ and if the motion is detected lights up the LED and powers the buzzer
 
 #### Result motion-sensor
 
-![Result](./motion-sensor/media/result.gif)
+![Result](./motion-sensor/media/result.png)
